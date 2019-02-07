@@ -18,11 +18,11 @@ cd icpd_installer
 
 vi Installer.sh
 
-< Update the variable placeholders >
-< Git API key can be found from Settings -> Developer Settings -> Personal access tokens >
-< Fyre API key can be found under Account management in Fyre portal >
-< Build Version is the required installer build you want to install >
-< Cluster name should be unique or the cluster will not be created >
+Update the variables
+Git API key can be found from Settings -> Developer Settings -> Personal access tokens 
+Fyre API key can be found under Account management in Fyre portal 
+Build Version is the required installer build you want to install 
+Cluster name should be unique or the cluster will not be created
 
 chmod +x Installer.sh
 ./Installer.sh
