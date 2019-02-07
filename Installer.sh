@@ -5,18 +5,18 @@
 #FYRE_API_KEY can be obtained from Fyre Account details page 
 #Git API Key can be obtained by logging into enterprise github account -> settings -> developer settings -> Personal access tokens
 #Cluster name needs to be unique across Fyre systems
-FYRE_USER=llsomava
-FYRE_API_KEY=j9Gv7ZmZauEEwXf7GZ3PxDFwEGBzFrzYBftIfQIqk
-FYRE_PASSWORD=Admin@1234
-CLUSTER_NAME=taurus
-GIT_API_KEY=3b7cf1742f30019c3a016ac9316297c11b84331b
-BUILD_VERSION=313
+FYRE_USER={}
+FYRE_API_KEY={}
+FYRE_PASSWORD={}
+CLUSTER_NAME={}
+GIT_API_KEY={}
+BUILD_VERSION={}
 SCP_USERNAME=ibmuser
 SCP_PASSWORD=wdp4fun
 VIRTUAL=virtual
 VIRTUAL_CLUSTER_NAME=$CLUSTER_NAME$BUILD_VERSION$VIRTUAL
 #modules 
-IGC_DOWNLOAD=http://bi-fs01.svl.ibm.com/zen/icp4d-builds/1.2.0.0/modules/extensions/UGI/IIS215-UG49-66-Zen/
+IGC_DOWNLOAD={link without the tar file}
 
 # PRE REQUISITES
 # install zlib-devel, git and sshpass
